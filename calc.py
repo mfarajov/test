@@ -1,4 +1,4 @@
-
+import math
 
 def add(x, y):
     """Add Function"""
@@ -21,7 +21,13 @@ def divide(x, y):
         raise ValueError('Can not divide by zero!')
     return x / y
 
-# power function
+# adding power function
 def power(x, y):
     """Power function"""
     return x**y
+
+
+# adding square root function
+def square_root(x):
+    """Square Root Function"""
+    return math.sqrt(x)
