@@ -21,6 +21,7 @@ def divide(x, y):
         raise ValueError('Can not divide by zero!')
     return x / y
 
+# power function
 def power(x, y):
     """Power function"""
     return x**y
