@@ -20,3 +20,7 @@ def divide(x, y):
     if y == 0:
         raise ValueError('Can not divide by zero!')
     return x / y
+
+def power(x, y):
+    """Power function"""
+    return x**y
